@@ -1,0 +1,129 @@
+{
+	"id": "2fe8ac85-5c38-47e5-baf8-c60e625206e5",
+	"name": "jogo-da-velha",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [],
+	"folders_order": [
+		"84df29ec-c516-4f87-a0ce-cd940edc503c",
+		"1363e440-ebd7-4591-98cc-9bd1d962e62a"
+	],
+	"folders": [
+		{
+			"id": "1363e440-ebd7-4591-98cc-9bd1d962e62a",
+			"name": "heroku",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "2fe8ac85-5c38-47e5-baf8-c60e625206e5",
+			"folder": null,
+			"order": [
+				"1d266dcb-4bf0-4888-b47a-f646c039338a",
+				"e8af1888-f8e9-494a-87ba-f4eb8e5f73e1"
+			],
+			"folders_order": []
+		},
+		{
+			"id": "84df29ec-c516-4f87-a0ce-cd940edc503c",
+			"name": "local",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"collection": "2fe8ac85-5c38-47e5-baf8-c60e625206e5",
+			"folder": null,
+			"order": [
+				"6981e6c9-6736-456b-aaf8-8e9d4053e21b",
+				"8c56da89-3473-4aac-bf77-3b92c5741f90"
+			],
+			"folders_order": []
+		}
+	],
+	"requests": [
+		{
+			"id": "1d266dcb-4bf0-4888-b47a-f646c039338a",
+			"name": "localhost:8080/game Copy",
+			"url": "https://app-jogo-velha.herokuapp.com/game",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "1363e440-ebd7-4591-98cc-9bd1d962e62a",
+			"pathVariables": {}
+		},
+		{
+			"id": "6981e6c9-6736-456b-aaf8-8e9d4053e21b",
+			"name": "localhost:8080/game",
+			"url": "localhost:8080/game",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "84df29ec-c516-4f87-a0ce-cd940edc503c",
+			"pathVariables": {}
+		},
+		{
+			"id": "8c56da89-3473-4aac-bf77-3b92c5741f90",
+			"name": "localhost:8080/game/1/movement",
+			"url": "localhost:8080/game/1/movement",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "84df29ec-c516-4f87-a0ce-cd940edc503c",
+			"rawModeData": "{\n\t\"id\" : \"1\",\n    \"player\": \"x\",\n    \"position\": {\n\t\t\"x\": 2, \n\t\t\"y\": 0\n\t}\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "e8af1888-f8e9-494a-87ba-f4eb8e5f73e1",
+			"name": "localhost:8080/game/1/movement Copy",
+			"url": "https://app-jogo-velha.herokuapp.com/game/1/movement",
+			"description": "",
+			"data": [],
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": "1363e440-ebd7-4591-98cc-9bd1d962e62a",
+			"rawModeData": "{\n\t\"id\" : \"1\",\n    \"player\": \"x\",\n    \"position\": {\n\t\t\"x\": 2, \n\t\t\"y\": 0\n\t}\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		}
+	]
+}

@@ -14,7 +14,7 @@ Swagger:
 http://localhost:8080/swagger-ui.html
 
 Postman:
-file /data/jogo-da-velha.postman_collection.json
+file /data/jogo-da-velha.postman.json
 
 ## Heroku - Swagger
 See [Heroku - Console H2](https://app-jogo-velha.herokuapp.com/swagger-ui.html).
