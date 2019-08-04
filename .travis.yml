@@ -3,8 +3,7 @@ jdk:
 - oraclejdk8
 deploy:
   api_key:
-    secure: $HEROKU_API_KEY
+    secure: jKLTyHku5ILoW5F5auxHNXW6XtNZ342Uc7CZfJXYqgzEWigdsaAKBvMr9xcK2xze+WkfI0Y7GEmwZ5RZqRhCrAdTBOp9TTfs/vFvstd/0GVyNk0oZjCHD+qbpTVKP8xU/ux9ITveNGYDrjKMm7LkfAU+gkR1G6sn8ms1f5yaHmoJ765EEdHsl60DZOoM5xmSOPgA5JtchRW21WfZY01KHT8rkes0xLmpvtfiusi9UBf96jnYaEb6ffS3SngMvLyZfPKNUVcXi5d19hOLGObw94b/QxLyqchJF17au+OejdLUEOesK8p+5kgkT3cbig9PJsn3W5vx/m3E8t6IEhtzSRl9tg7FPdRwypeJcJGKRy4vo6JcBAVYoCpMn86FTaz0jcn7J8pd4fa1MplGOxkJTvfyMjWch6kCBjqUHlx8MbvsdnVLKH4qSnQS0HCcWqjIJwHR5l1JPNW73iruSl/WCr1kUXlUIdSqB1b/1/j9qkNwQvK6x7BCIuZNMN1Kt4QiMcGWy35ilBO/Z8jHlqLJ9ijyYCpLwLA5fRKrJVMsYrJRGUZvi9p+StNwsVZqEhUvvNY0dSzX7J8LxLURriGM1oizG+XHEuXMYI6cVQMRe7hX9/UUEJ9jis/XZs4ffWKlpg/OITPZ5ajw4LewuP0D+cLQQ7y21BGw78efIGCPBVQ=
   app: jogo-da-velha
   on:
-      all_branches: true
-
+      repo: Ricardolv/jogo-da-velha
