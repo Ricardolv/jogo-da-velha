@@ -2,7 +2,7 @@
 
 ## Instruções
 
-O projeto utiliza o Spring Boot, Maven, H2, Mockito, Junit
+O projeto utiliza o Spring Boot, Maven, H2, Mockito, Junit, Swagger
 
 
 ```

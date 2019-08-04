@@ -3,6 +3,7 @@ jdk:
 - oraclejdk8
 deploy:
  provider: heroku
-  api-key:
-   secure: $HEROKU_API_KEY
-  app: jogo-da-velha
+ api-key:
+  secure: "RQ4Zuil8lA1OiR8QbIBa4zvJ3eLSiwDuMvDRKXxXpepPl3whIdp+6+N0nRXJN5xHlfJJFdPZCuHxrVaGcaW7+TO2Erv86MM+6+KxR/yCxheuEJyN++q/QxzLK7Abn15OS+SV1cgNZG8QV1lro6M/6buwzxPC1N1iXu+bmSw3l1OleXMXUZBW5RSl4LMNcDnrGYFY9F0DVV9byohUDzh7w/lPVmW3XvFc4gbkOtDrhCSxxiDJ2ekPYhTlyG34dbhUqEEmk5dL3JWEuSFqJF6JRwAklu0xG2TvZU6bxlcOaXrcbjIqt2iGiPOyb3qQazqwRAjfOgAF3dwCD3BDXshcexpAi/eWZxtFMdP6wPwx/6v7OFqeA6C5+gd2s2uzOlqFp2zLISd9NCBMyZhwn7MgqNukW73cD5uaHtR6AAfzX9CvQTwLkkp8/42jA1x0MdphTYjdPrb453OUZcRzlWv08vuC+9kAWPbTM/k/Zc6hO4j9WmqUp3Q7qX3XVr2Kf/KUoDgNOO+Lc1ZTNegP4ho0nrfCP09110Tx7s7cefTSxaTwXZZeSCd4AVEKxDy81SrJd4zcfJqbLqH+Cjwamt0cavtfTokY4jGGDH1F/uPGk7zgyNKVFH4O9jXfN8GtodF4Rdd69ToNUbAhoJUe02Ta8/XpV4Hq1sh79hdJX5J/AB4="
+ app: jogo-da-velha
+
