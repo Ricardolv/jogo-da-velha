@@ -1,0 +1,10 @@
+language: java
+jdk:
+- oraclejdk8
+deploy:
+    provider: heroku
+    api-key:
+        secure: hbin4AKq2YPmSEhZYF3vcm1X3L6tHKn3aOD1OM+1B3668a0CGVYFji0DiRhYw+92CwsQRUQ5XKIA5pQIcI61NB3ce400M5tD8mBVpS75OGDc2K0syXCG6aTYcDjWLvrDxSriEDkuNbSF/cfsIN2vxr72q1naiSE/Xo4TozPkq7CesvI4LA90wRtIwrbg/+xuA9/8PgT2s7bS5bFiDfjwm7Bd+YrSjSvU/qBagR0UN1zMu8D+JMrEpMJ8jlmGWeN8K9Pp0Y62CCw948PtB8ek/OCnJUJxX/vnMkbrudDhr+dCESeR8QX+23mzrOJWZNnLxRzbaiIj+7OTUtl3aDztP/MSbEPtXIcwBo6coSoq4KtSYKAsvwP6WH/R02HfLvbDiAGQ12UBWRdk0UbUefZfNdSuv5oBzBRLmWb+KJ5zj3DpAMZIlM2x2ALh+4DBMTvZBKvC8JQxvMphFNdMnXN7vF0itwZDnIXmmPcOMr92AU9G9vNQAEX7CB2+DXPrlpnbggyFw0dX5WMsns5U7qOHuMLGlJNHwmI/tpcqpZoU+kN9MIDkmsqg40zxqXduXywn53PZy1t3wGCcfS5F5VOSqnHJHoeEXeXPEN4m0GPe7M7xxKvYjFP5TiCYCeIC14hX64K8370aCXKOjYMxZG79+RRtqNDlqRJicWbeTlDANEw=
+    app: jogo-da-velha
+        on:
+            repo: Ricardolv/jogo-da-velha
