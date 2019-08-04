@@ -19,11 +19,8 @@ public class GameDTO implements Serializable {
     private String firstPlayer;
     private String player;
 
-
     private String status;
     private String winner;
     private String msg;
-
-    public String description = "opa <br/> opa";
 
 }
