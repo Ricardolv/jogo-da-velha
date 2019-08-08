@@ -162,9 +162,9 @@ public class GameService {
     private void descriptionGame(String[][] matrix) {
         StringBuilder description = new StringBuilder()
             .append("\n" + matrix[0][2]  + "\t" + "|" + "\t" + matrix[1][2]  + "\t" + "|" + "\t" + matrix[2][2])
-            .append("\n" + "----|-------|----")
+            .append("\n" +"----|-------|----")
             .append("\n" + matrix[0][1]  + "\t" + "|" + "\t" + matrix[1][1]  + "\t" + "|" + "\t" + matrix[2][1])
-            .append("\n" + "----|-------|----")
+            .append("\n" +"----|-------|----")
             .append("\n" + matrix[0][0]  + "\t" + "|" + "\t" + matrix[1][0]  + "\t" + "|" + "\t" + matrix[2][0]);
         log.info(description.toString());
     }
